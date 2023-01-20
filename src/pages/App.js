@@ -18,7 +18,7 @@ const App = () => {
         <Skills />
       </section>
 
-      <section id="projects" className="snap-center">
+      <section id="projects" className="snap-start">
         <Projects />
       </section>
     </div>
