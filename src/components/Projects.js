@@ -1,7 +1,6 @@
 import React from "react";
-import Web1 from "../assets/web1.png";
-import Web2 from "../assets/web2.png";
-import Web3 from "../assets/web3.png";
+import fitclub from "../assets/fitclub.jpg";
+import deliveroo from "../assets/deliveroo.jpg";
 
 const Projects = () => {
   return (
@@ -9,57 +8,51 @@ const Projects = () => {
       <div className="overflow-x-scroll overflow-y-hidden snap-x snap-mandatory flex flex-row h-screen">
         <div className="w-screen snap-center flex-shrink-0 flex lg:flex-row flex-col items-center justify-center ">
           <img
-            src={Web1}
-            alt="Web1"
+            src={fitclub}
+            alt="fitclub"
             className="xl:w-[60%] xl:h-[75%] lg:w-[50%] lg:h-[65%] sm:h-[50%] w-[90%]  object-contain"
           />
           <div className="xl:w-[20%] lg:w-[20%] text-center lg:ml-6 space-y-8 w-[90%]">
             <h2 className="font-burtons text-3xl mt-6 text-teal-600">
-              Nike Air Max 270
+              Fit Club
             </h2>
-            <p className="text-sm tracking-[4px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              cupiditate est temporibus ullam a quis eum quo, assumenda minus
-              atque. Dolor quidem reprehenderit animi dicta dolores voluptates
-              laborum, praesentium enim?
+            <p className="text-sm tracking-[2px]">
+              #React #SASS #Framer Motion
             </p>
+            <div className="text-sm tracking-[2px]">
+              <a
+                href="https://leonnnx124-fitclub.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View {">"}
+              </a>
+            </div>
           </div>
         </div>
 
         <div className="w-screen snap-center flex-shrink-0 flex lg:flex-row flex-col items-center justify-center ">
           <img
-            src={Web2}
-            alt="Web2"
+            src={deliveroo}
+            alt="deliveroo"
             className="xl:w-[60%] xl:h-[75%] lg:w-[50%] lg:h-[65%] sm:h-[50%] w-[90%]  object-contain"
           />
           <div className="xl:w-[20%] lg:w-[20%] text-center lg:ml-6 space-y-8  w-[90%]">
             <h2 className="font-burtons text-3xl mt-6 text-teal-600">
-              Look For Elegent Nails
+              Deliveroo
             </h2>
-            <p className="text-sm tracking-[4px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              cupiditate est temporibus ullam a quis eum quo, assumenda minus
-              atque. Dolor quidem reprehenderit animi dicta dolores voluptates
-              laborum, praesentium enim?
+            <p className="text-sm tracking-[2px]">
+              #React Native #Tailwind #Sanity.io #Redux
             </p>
-          </div>
-        </div>
-        <div className="w-screen snap-center flex-shrink-0 flex lg:flex-row flex-col items-center justify-center ">
-          <img
-            src={Web3}
-            alt="Web3"
-            className="xl:w-[60%] xl:h-[75%] lg:w-[50%] lg:h-[65%] sm:h-[50%] w-[90%]  object-contain"
-          />
-          <div className="xl:w-[20%] lg:w-[20%] text-center lg:ml-6 space-y-8  w-[90%]">
-            <h2 className="font-burtons text-3xl mt-6 text-teal-600">
-              The Data Onboarding
-            </h2>
-            <p className="text-sm tracking-[4px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              cupiditate est temporibus ullam a quis eum quo, assumenda minus
-              atque. Dolor quidem reprehenderit animi dicta dolores voluptates
-              laborum, praesentium enim?
-            </p>
+            <div className="text-sm tracking-[2px]">
+              <a
+                href="https://www.youtube.com/watch?v=duB_4g5SpVk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View {">"}
+              </a>
+            </div>
           </div>
         </div>
       </div>
